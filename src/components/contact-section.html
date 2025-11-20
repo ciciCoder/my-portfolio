@@ -1,0 +1,86 @@
+<section id="contact" class="py-20 px-4 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl text-slate-900 mb-4">Get In Touch</h2>
+      <div class="h-1 w-20 bg-slate-900 mx-auto"></div>
+      <p class="text-slate-600 mt-6">Have a project in mind or want to discuss opportunities? Feel free to reach out!
+      </p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="space-y-6">
+        <h3 class="text-2xl text-slate-900">Contact Information</h3>
+        <div class="space-y-4"><a href="mailto:villarjuncel@gmail.com"
+            class="flex items-start gap-4 p-4 rounded-lg hover:bg-slate-50 transition-colors">
+            <div class="p-3 bg-slate-100 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-mail size-6 text-slate-700" aria-hidden="true">
+                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              </svg></div>
+            <div>
+              <p class="text-slate-900">Email</p>
+              <p class="text-slate-600">villarjuncel@gmail.com</p>
+            </div>
+          </a><a href="tel:+639171659909"
+            class="flex items-start gap-4 p-4 rounded-lg hover:bg-slate-50 transition-colors">
+            <div class="p-3 bg-slate-100 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-phone size-6 text-slate-700" aria-hidden="true">
+                <path
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
+                </path>
+              </svg></div>
+            <div>
+              <p class="text-slate-900">Phone</p>
+              <p class="text-slate-600">(+63) 917 165 9909</p>
+            </div>
+          </a>
+          <div class="flex items-start gap-4 p-4 rounded-lg">
+            <div class="p-3 bg-slate-100 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-map-pin size-6 text-slate-700" aria-hidden="true">
+                <path
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                </path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg></div>
+            <div>
+              <p class="text-slate-900">Location</p>
+              <p class="text-slate-600">Ormoc City, Leyte, Philippines</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border p-6">
+        <form class="space-y-4"
+          id="contact-form">
+          <div><label for="name" class="block text-slate-700 mb-2">Name</label>
+            <input data-slot="input"
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border px-3 py-1 text-base bg-input-background! transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive"
+              id="name" name="name" placeholder="Your name" required="" value="">
+          </div>
+          <div>
+            <label for="email" class="block text-slate-700 mb-2">Email</label>
+            <input type="email" data-slot="input"
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border px-3 py-1 text-base bg-input-background! transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive"
+              id="email" name="email" placeholder="your.email@example.com" required="" value="">
+          </div>
+          <div>
+            <label for="message" class="block text-slate-700 mb-2">Message</label><textarea data-slot="textarea"
+              class="resize-none border-input placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full rounded-md border bg-input-background! px-3 py-2 text-base transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+              id="message" name="message" placeholder="Your message..." rows="5" required=""></textarea>
+          </div><button data-slot="button"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive text-primary-foreground h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full bg-slate-900 hover:bg-slate-800"
+            type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-send size-4 mr-2" aria-hidden="true">
+              <path
+                d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z">
+              </path>
+              <path d="m21.854 2.147-10.94 10.939"></path>
+            </svg>Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
